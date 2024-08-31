@@ -42,8 +42,11 @@ This project explores how [sparse autoencoders](https://arxiv.org/abs/2309.08600
 - Crucially, we use scVI to learn a reduced representation of cells across both datasets that corrects for technical batch effects while maintaining biological signal. This takes the place of the final MLP layer used in Anthropic's method.
 - Notebook is [here](./notebooks/datsets.ipynb)
 
-![UMAP of Latent scVI "Dense" Representation](./figures/figure_2_scvi_corrected_umap.png)
-*Figure 2: UMAP of Latent scVI "Dense" Representation*
+<p align="center">
+  <img src="./figures/figure_2_scvi_corrected_umap.png" alt="UMAP of Latent scVI 'Dense' Representation">
+  <br>
+  <em>Figure 2: UMAP of Latent scVI 'Dense' Representation</em>
+</p>
 
 ### Learning a Sparse Representation with an Autoencoder
 
@@ -51,11 +54,17 @@ This project explores how [sparse autoencoders](https://arxiv.org/abs/2309.08600
 - Source code is [here](./src/sparse_autoencoder.py)
 - Notebook is [here](./notebooks/modeling.ipynb)
 
-![Training Curves for Autoencoder](./figures/figure_3_training_curves.png)
-*Figure 3: Training Curves for Autoencoder*
+<p align="center">
+  <img src="./figures/figure_3_training_curves.png" alt="Training Curves for Autoencoder">
+  <br>
+  <em>Figure 3: Training Curves for Autoencoder</em>
+</p>
 
-![UMAP of Hidden SAE "Sparse" Representation](./figures/figure_4_hidden__sparse_encoding.png)
-*Figure 4: UMAP of Hidden SAE "Sparse" Representation*
+<p align="center">
+  <img src="./figures/figure_4_hidden__sparse_encoding.png" alt="UMAP of Hidden SAE 'Sparse' Representation">
+  <br>
+  <em>Figure 4: UMAP of Hidden SAE 'Sparse' Representation</em>
+</p>
 
 ## Results
 
