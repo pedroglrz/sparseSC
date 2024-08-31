@@ -29,7 +29,11 @@ This project explores how [sparse autoencoders](https://arxiv.org/abs/2309.08600
 - Since the studies were conducted separately, the technical signal between experiments overwhelms the interesting biological signal. These are called batch effects.
 - Basic preprocessing standard to the domain was conducted.
 
-![Preprocessed UMAP of the RNA Gene Expression of the Combined Datasets](./figures/figure_1_preprocessed_umap.png)
+<p align="center">
+  <img src="./figures/figure_1_preprocessed_umap.png" alt="Preprocessed UMAP of the RNA Gene Expression of the Combined Datasets">
+  <br>
+  <em>Figure 1: Preprocessed UMAP of the RNA Gene Expression of the Combined Datasets</em>
+</p>
 
 ### Dataset Integration and Representation Learning
 
@@ -39,6 +43,7 @@ This project explores how [sparse autoencoders](https://arxiv.org/abs/2309.08600
 - Notebook is [here](./notebooks/datsets.ipynb)
 
 ![UMAP of Latent scVI "Dense" Representation](./figures/figure_2_scvi_corrected_umap.png)
+*Figure 2: UMAP of Latent scVI "Dense" Representation*
 
 ### Learning a Sparse Representation with an Autoencoder
 
@@ -47,7 +52,10 @@ This project explores how [sparse autoencoders](https://arxiv.org/abs/2309.08600
 - Notebook is [here](./notebooks/modeling.ipynb)
 
 ![Training Curves for Autoencoder](./figures/figure_3_training_curves.png)
+*Figure 3: Training Curves for Autoencoder*
+
 ![UMAP of Hidden SAE "Sparse" Representation](./figures/figure_4_hidden__sparse_encoding.png)
+*Figure 4: UMAP of Hidden SAE "Sparse" Representation*
 
 ## Results
 
