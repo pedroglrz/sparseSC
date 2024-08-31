@@ -70,8 +70,22 @@ This project explores how [sparse autoencoders](https://arxiv.org/abs/2309.08600
 
 - Univariate correlations between one-hot encoded cell type labels and both "dense" and "sparse" representations of the datasets were computed.
 - Feature/cell pairs with extreme correlation for a single metadata category were identified as having strong singular correlations, suggesting monosemanticity.
-- Significantly more features with strong singular correlation were found for the sparse representation than the dense one.
+- Significantly more features with strong singular correlation were found for the sparse representation than the dense one. (23 vs. 3 respectively)
 - Notebook is [here](./notebooks/analysis_1.ipynb)
+
+<p align="center">
+  <img src="./figures/figure_5_sparse_singular_features.png" alt="Singularly Correlated Features from 'Sparse' Encoding">
+  <br>
+  <em>Figure 5: Singularly Correlated Features from "Sparse" Encoding</em>
+</p>
+
+<p align="center">
+  <img src="./figures/figure_6_dense_singular_features.png" alt="Singularly Correlated Features from 'Dense' Encoding">
+  <br>
+  <em>Figure 6: Singularly Correlated Features from "Dense" Encoding</em>
+</p>
+
+## Results
 
 ## Discussion
 
